@@ -1,10 +1,10 @@
-language:bash
+language: bash
 script:
- - echo Test0 runinng
- - ./GreatestCommonDivisor-test0.sh
- - echo Test1 runinng
- - ./GreatestCommonDivisor-test1.sh
- - echo Test2 runinng
- - ./GreatestCommonDivisor-test2.sh
- - echo Test3 runinng
- - ./GreatestCommonDivisor-test3.sh
+- echo Test0 runinng
+- ./GreatestCommonDivisor-test0.sh
+- echo Test1 runinng
+- ./GreatestCommonDivisor-test1.sh
+- echo Test2 runinng
+- ./GreatestCommonDivisor-test2.sh
+- echo Test3 runinng
+- ./GreatestCommonDivisor-test3.sh
