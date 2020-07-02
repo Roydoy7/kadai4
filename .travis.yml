@@ -1,10 +1,13 @@
 language: bash
 script:
-- echo Test0 runinng
+- echo Test0 runinng, expecting exit code is 0
 - ./GreatestCommonDivisor-test0.sh
-- echo Test1 runinng
+- echo
+- echo Test1 runinng, expecting exit code is 1
 - ./GreatestCommonDivisor-test1.sh
-- echo Test2 runinng
+- echo
+- echo Test2 runinng, expecting exit code is 1
 - ./GreatestCommonDivisor-test2.sh
-- echo Test3 runinng
+- echo
+- echo Test3 runinng, expecting exit code is 1
 - ./GreatestCommonDivisor-test3.sh
